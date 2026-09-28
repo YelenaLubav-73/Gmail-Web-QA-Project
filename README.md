@@ -5,8 +5,8 @@
 - This repository contains manual QA testing documentation created for Gmail Web.
 - The project focuses on GUI testing, cross-browser testing, cross-device testing, responsive behavior, and defect reporting.
 - The project requirements were developed collaboratively as part of a team assignment. My personal contribution included GUI testing, cross-browser and cross-device testing, and reporting BUG_003 and BUG_004.
-- 
-- ## Project Documentation
+ 
+## Project Documentation
 
 - Software Requirements Specification (SRS)
 - Software Test Plan (STP)
