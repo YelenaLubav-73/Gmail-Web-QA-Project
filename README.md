@@ -44,6 +44,7 @@ Examples of documented defects include:
 
 - Language names are truncated in the Gmail language dropdown
 - Month names are truncated on high-DPI Windows display scaling
+This repository includes the defects personally identified and reported by me during the team project: BUG_003 and BUG_004.
 
 ## Author
 
