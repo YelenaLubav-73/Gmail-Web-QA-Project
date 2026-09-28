@@ -1,7 +1,7 @@
 # Bug ID: BUG_003
 ## Title: Language dropdown width dynamically resizes according to the selected language, causing truncation of longer language names. 
-** Related Test Case: ** TC-GUI-003
-** Requirement ID: ** GUI-7.1, GUI-7.2, GUI-7.3
+**Related Test Case:** TC-GUI-003
+**Requirement ID:** GUI-7.1, GUI-7.2, GUI-7.3
 
 ## Environment :
 
@@ -11,7 +11,7 @@
 
 ### Mobile:
 - OS: iOS
--Browsers: Safari, Chrome (iOS)
+- Browsers: Safari, Chrome (iOS)
 
 **Devices:** Windows Laptop, Mac Pro, iPhone 12 Pro Max
  
@@ -53,13 +53,13 @@ Priority:     Low
 GUI + Compatibility bug report 
 # Bug ID:  BUG_004
 ## Title: Month names are truncated in the registration dropdown list on high-DPI displays 
-** Related Test Case: ** TC-GUI-005
-** Requirement ID: ** GUI-1.1, GUI-1.2
+**Related Test Case:** TC-GUI-005
+**Requirement ID:** GUI-1.1, GUI-1.2
 
 ## Environment :
 
-** OS: ** Windows 10
-** Device: ** ASUS UX310U Laptop
+**OS:** Windows 10
+**Device:** ASUS UX310U Laptop
 Screen Resolution: 1920×1080
 Display Scale: 175%
 Browser Zoom: 100%
