@@ -3,7 +3,7 @@
 **Related Test Case:** TC-GUI-003
 **Requirement ID:** GUI-7.1, GUI-7.2, GUI-7.3
 
-## Environment :
+## Environment:
 
 ### Desktop:
 - OS: Windows 10, macOS Sonoma 14.6.1
@@ -16,8 +16,8 @@
 **Devices:** Windows Laptop, Mac Pro, iPhone 12 Pro Max
  
 ## Precondition:
-The Gmail authorization page is open.
-The language selection dropdown is available.
+- The Gmail authorization page is open.
+- The language selection dropdown is available.
 
 ## Steps to Reproduce:
 ### Step 1: 
@@ -33,11 +33,11 @@ The language selection dropdown is available.
 - On mobile browsers (Safari and Chrome), all language names were fully visible and readable.
 
 ## Expected Result 2:
-The language selection dropdown remains fully expanded. All language names are displayed completely, without clipping or truncation.
+- The language selection dropdown remains fully expanded. All language names are displayed completely, without clipping or truncation.
 
 ## Actual Result 2:
-On desktop browsers (Chrome, Edge, and Firefox), long language names were truncated and not fully visible. 
-On mobile browsers (Safari and Chrome), the dropdown expanded correctly and all language names remained fully visible and readable.
+- On desktop browsers (Chrome, Edge, and Firefox), long language names were truncated and not fully visible. 
+- On mobile browsers (Safari and Chrome), the dropdown expanded correctly and all language names remained fully visible and readable.
 
 ## Observation:
 Reproduced on desktop browsers on Windows and macOS; not reproduced on mobile browsers (iOS).
@@ -45,29 +45,30 @@ Reproduced on desktop browsers on Windows and macOS; not reproduced on mobile br
 ## Recommendation:
 Review the dropdown rendering behavior in desktop browsers. 
 
-Severity:   Low
-Priority:     Low
+**Severity:** Low  
+**Priority:** Low  
+**Status:** Open  
+**Reported by:** Yelena Lubavin
 
 ---
 
-GUI + Compatibility bug report 
-# Bug ID:  BUG_004
+# Bug ID: BUG_004
 ## Title: Month names are truncated in the registration dropdown list on high-DPI displays 
 **Related Test Case:** TC-GUI-005
 **Requirement ID:** GUI-1.1, GUI-1.2
 
-## Environment :
+## Environment:
 
-**OS:** Windows 10
-**Device:** ASUS UX310U Laptop
-Screen Resolution: 1920×1080
-Display Scale: 175%
-Browser Zoom: 100%
-Browser Window: Full Screen
-Browsers: Microsoft Edge, Google Chrome 
+- **OS:** Windows 10
+- **Device:** ASUS UX310U Laptop
+- **Screen Resolution:** 1920×1080
+- **Display Scale:** 175%
+- **Browser Zoom:** 100%
+- **Browser Window:** Full Screen
+- **Browsers:** Microsoft Edge, Google Chrome
 
 ## Precondition:
-Navigate to the "Basic Information" registration page by completing the previous registration step and clicking the "Next" button.
+- Navigate to the "Basic Information" registration page by completing the previous registration step and clicking the "Next" button.
 
 ## Steps to Reproduce:
 
@@ -88,11 +89,8 @@ Navigate to the "Basic Information" registration page by completing the previous
 ## Observation:
 The issue was reproduced in Microsoft Edge and Google Chrome on an ASUS UX310U laptop running Windows 10 with display scaling set to 175% and browser zoom set to 100%. The issue was observed in both English and Russian versions of the registration form.
 
-Severity:    Low
-Priority:      Low
-Status:      Open 
-Reported by: Yelena Lubavin
-
-## Status:     Open 
-Reported by: Yelena Lubavin
+**Severity:** Low  
+**Priority:** Low  
+**Status:** Open  
+**Reported by:** Yelena Lubavin
 
